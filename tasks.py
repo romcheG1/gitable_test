@@ -67,7 +67,14 @@ dict = {1:['   1  ',
            '0     0',
            '0     0',
            ' 0   0 ',
-           '  000  ']}
+           '  000  '],
+      'b':[' b     ',
+           ' b     ',
+           '.b bbb ',
+           ' bb   b',
+           ' b    b',
+           ' bb   b',
+           ' b bbb ']}
 
 
 def print_digit_row(digit, row):
@@ -80,4 +87,5 @@ for j in range(7):
     for dig in line:
         temp_str += print_digit_row(int(dig), j) + ' '
     print(temp_str)
+    
 
