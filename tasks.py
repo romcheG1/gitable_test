@@ -84,12 +84,9 @@ dict = {'1': ['   1  ',
               ' b bb ']}
 
 
-def print_digit_row(digit, row):
-    return dict[digit][row]
-
 line = input()
 for j in range(7):
     temp_str = ''
     for dig in line:
-        temp_str += print_digit_row(dig, j) + ' '
+        temp_str += dict[digit][row] + ' '
     print(temp_str)
